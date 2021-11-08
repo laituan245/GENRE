@@ -14,11 +14,12 @@ from wikimapper import WikiMapper
 
 # Constants
 BASE_RESOURCES_DIR = 'resources'
+AQUAINT = 'aquaint'
 RSS500 = 'rss500'
 ISTEX = 'istex'
 TWEETKI = 'tweetki'
 WIKIPEDIAEL = 'wikipediael'
-DATASETS = [RSS500, ISTEX, TWEETKI, WIKIPEDIAEL]
+DATASETS = [AQUAINT, RSS500, ISTEX, TWEETKI, WIKIPEDIAEL]
 
 # Class Entity Mention
 class EntityMention:
